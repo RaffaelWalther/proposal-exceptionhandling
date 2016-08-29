@@ -7,6 +7,8 @@ using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using ExceptionhandlingDemo.Business.Repositories;
+using ExceptionhandlingDemo.Business.Contracts.Repositories;
 
 namespace ExceptionhandlingDemo
 {
@@ -28,6 +30,8 @@ namespace ExceptionhandlingDemo
         {
             // Add framework services.
             services.AddMvc();
+
+            services.AddTransient(typeof(ICustomerRepository), typeof(MockedCustomerRepository));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +53,7 @@ namespace ExceptionhandlingDemo
             app.UseIISPlatformHandler();
 
             app.UseStaticFiles();
+
 
             app.UseMvc(routes =>
             {
