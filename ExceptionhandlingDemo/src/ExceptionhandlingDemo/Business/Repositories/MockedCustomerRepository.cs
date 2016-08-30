@@ -9,14 +9,21 @@ namespace ExceptionhandlingDemo.Business.Repositories
 {
     public class MockedCustomerRepository : ICustomerRepository
     {
+        private readonly List<Customer> _demoData;
+
+        public MockedCustomerRepository()
+        {
+            _demoData = GetDemoData();
+        }
+
         public IEnumerable<Customer> Get()
         {
-            return GetDemoData();
+            return _demoData;
         }
 
         public Customer Get(Guid objectId)
         {
-            return GetDemoData().Where(d => d.ObjectId == objectId).FirstOrDefault();
+            return _demoData.Where(d => d.ObjectId == objectId).FirstOrDefault();
         }
 
         #region Helper

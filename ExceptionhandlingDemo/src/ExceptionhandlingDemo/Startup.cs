@@ -33,7 +33,7 @@ namespace ExceptionhandlingDemo
             // Add framework services.
             services.AddMvc();
 
-            services.AddTransient(typeof(ICustomerRepository), typeof(MockedCustomerRepository));
+            services.AddSingleton(typeof(ICustomerRepository), typeof(MockedCustomerRepository));
             services.AddTransient(typeof(ICustomerApplicationService), typeof(CustomerApplicationService));
         }
 
