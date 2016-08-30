@@ -1,0 +1,59 @@
+﻿2016-08-30 23:34:11.743 +02:00 [Debug] Hosting starting
+2016-08-30 23:34:11.828 +02:00 [Debug] Hosting started
+2016-08-30 23:34:14.137 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2016-08-30 23:34:14.183 +02:00 [Debug] The request path "/" does not match a supported file type
+2016-08-30 23:34:14.369 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-30 23:34:14.410 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index"
+2016-08-30 23:34:14.528 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index" with arguments (null) - ModelState is Valid'
+2016-08-30 23:34:14.600 +02:00 [Fatal] Unhandled Error occured: Exception of type 'System.Exception' was thrown.
+2016-08-30 23:34:14.607 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Index", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-30 23:34:18.712 +02:00 [Debug] The view '"Index"' was found.
+2016-08-30 23:34:18.717 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2016-08-30 23:34:18.844 +02:00 [Information] User profile is available. Using '"C:\Users\rsauter\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-30 23:34:19.649 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css  
+2016-08-30 23:34:19.658 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index" in 0.525ms
+2016-08-30 23:34:19.665 +02:00 [Information] Request finished in 0.5515ms 200 text/html; charset=utf-8
+2016-08-30 23:34:19.676 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2016-08-30 23:34:19.682 +02:00 [Debug] Handled. Status code: 304 File: "/lib/bootstrap/dist/css/bootstrap.css"
+2016-08-30 23:34:19.683 +02:00 [Information] Request finished in 0.0031ms 304 text/css
+2016-08-30 23:34:19.700 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2016-08-30 23:34:19.701 +02:00 [Information] The file "/css/site.css" was not modified
+2016-08-30 23:34:19.701 +02:00 [Debug] Handled. Status code: 304 File: "/css/site.css"
+2016-08-30 23:34:19.703 +02:00 [Information] Request finished in 0ms 304 text/css
+2016-08-30 23:34:19.712 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js  
+2016-08-30 23:34:19.715 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2016-08-30 23:34:19.715 +02:00 [Debug] Handled. Status code: 304 File: "/lib/jquery/dist/jquery.js"
+2016-08-30 23:34:19.717 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2016-08-30 23:34:19.725 +02:00 [Information] Request finished in 0ms 304 application/javascript
+2016-08-30 23:34:19.729 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2016-08-30 23:34:19.729 +02:00 [Debug] Handled. Status code: 304 File: "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
+2016-08-30 23:34:19.733 +02:00 [Information] Request finished in 0.0015ms 304 application/font-woff2
+2016-08-30 23:34:19.768 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js  
+2016-08-30 23:34:19.773 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2016-08-30 23:34:19.774 +02:00 [Debug] Handled. Status code: 304 File: "/lib/bootstrap/dist/js/bootstrap.js"
+2016-08-30 23:34:19.796 +02:00 [Information] Request finished in 0.0015ms 304 application/javascript
+2016-08-30 23:34:19.818 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=EWaMeWsJBYWmL2g_KkgXZQ5nPe-a3Ichp0LEgzXczKo  
+2016-08-30 23:34:19.827 +02:00 [Information] The file "/js/site.js" was not modified
+2016-08-30 23:34:19.827 +02:00 [Debug] Handled. Status code: 304 File: "/js/site.js"
+2016-08-30 23:34:19.831 +02:00 [Information] Request finished in 0.0016ms 304 application/javascript
+2016-08-30 23:34:40.899 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/IndexFunc  
+2016-08-30 23:34:40.899 +02:00 [Debug] The request path "/Home/IndexFunc" does not match a supported file type
+2016-08-30 23:34:40.900 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-30 23:34:40.901 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.IndexFunc"
+2016-08-30 23:34:40.904 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.IndexFunc" with arguments (null) - ModelState is Valid'
+2016-08-30 23:34:40.909 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.IndexFunc", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-30 23:34:40.910 +02:00 [Debug] The view '"Index"' was found.
+2016-08-30 23:34:40.914 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2016-08-30 23:34:40.936 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.IndexFunc" in 0.0016ms
+2016-08-30 23:34:40.944 +02:00 [Information] Request finished in 0.0046ms 200 text/html; charset=utf-8
+2016-08-30 23:34:42.255 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Details/a3c75d63-82c9-42e5-93b3-24eca3e8bbd1  
+2016-08-30 23:34:42.255 +02:00 [Debug] The request path "/Home/Details/a3c75d63-82c9-42e5-93b3-24eca3e8bbd1" does not match a supported file type
+2016-08-30 23:34:42.255 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-30 23:34:42.255 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Details"
+2016-08-30 23:34:42.312 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Details" with arguments (["a3c75d63-82c9-42e5-93b3-24eca3e8bbd1"]) - ModelState is Valid'
+2016-08-30 23:34:46.735 +02:00 [Error] Localized Error in loading specific customer
+2016-08-30 23:34:46.738 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Details", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-30 23:34:46.824 +02:00 [Debug] The view '"Details"' was found.
+2016-08-30 23:34:46.827 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Details.cshtml".
+2016-08-30 23:34:46.834 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Details" in 0.4578ms
+2016-08-30 23:34:46.843 +02:00 [Information] Request finished in 0.4578ms 200 text/html; charset=utf-8

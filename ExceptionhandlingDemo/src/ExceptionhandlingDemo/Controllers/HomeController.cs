@@ -1,8 +1,10 @@
 ﻿
+
 using ExceptionhandlingDemo.Business.Contracts.ApplicationServices;
 using ExceptionhandlingDemo.Business.Contracts.Exceptions;
 using ExceptionhandlingDemo.ViewModels;
 using Microsoft.AspNet.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 
@@ -12,7 +14,8 @@ namespace ExceptionhandlingDemo.Controllers
     {
         private readonly ICustomerApplicationService _customerApplicationService;
 
-        public HomeController(ICustomerApplicationService customerApplicationService)
+        public HomeController(ICustomerApplicationService customerApplicationService, ILogger<HomeController> logger)
+            :base(logger)
         {
             _customerApplicationService = customerApplicationService;
         }

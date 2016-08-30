@@ -2,6 +2,7 @@
 using ExceptionhandlingDemo.Business.Contracts.Exceptions;
 using ExceptionhandlingDemo.ViewModels;
 using Microsoft.AspNet.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
 
@@ -9,18 +10,25 @@ namespace ExceptionhandlingDemo.Controllers
 {
     public class BaseController : Controller
     {
+        private readonly ILogger<BaseController> _logger;
+        public BaseController(ILogger<BaseController> logger)
+        {
+            _logger = logger;
+        }
+
         #region Option A: Treat handled Business- and unhandled Errors
 
         protected void TreatUnhandledException(Exception ex, BaseViewModel viewModel)
         {
             Debug.WriteLine(ex.Message);
+            _logger.LogCritical($"Unhandled Error occured: {ex.Message}");
             viewModel.ErrorMessage = "oops, an unhandled error has occured! This should nod happen ...";
         }
 
         protected void TreatHandledException(BusinessException bex, BaseViewModel viewModel)
         {
             Debug.WriteLine(bex.Message);
-
+            _logger.LogError(bex.Message);
 #if DEBUG
             viewModel.ErrorMessage = string.Join(" > ", bex.FlattenInnerException());
 #else
