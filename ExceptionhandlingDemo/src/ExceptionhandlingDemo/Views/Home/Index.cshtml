@@ -6,14 +6,17 @@
 
 <table class="table">
 
-@foreach (var c in Model.Customers)
-{
-    <tr>
-        <td>@c.FirstName</td>
-        <td>@c.MiddleName</td>
-        <td>@c.LastName</td>
-    </tr>
-}
+    @foreach (var c in Model.Customers)
+    {
+        <tr>
+            <td>@c.FirstName</td>
+            <td>@c.MiddleName</td>
+            <td>@c.LastName</td>
+            <td>@Html.ActionLink("Details", "Details", new {id = @c.ObjectId})</td>
+        </tr>
+    }
 
 </table>
+
+
 

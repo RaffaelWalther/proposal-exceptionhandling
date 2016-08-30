@@ -28,11 +28,32 @@ namespace ExceptionhandlingDemo.Controllers
             }
             catch (BusinessException bex)
             {
-                TreatHandledException(bex);
+                TreatHandledException(bex, viewModel);
             }
             catch (Exception ex)
             {
-                TreatUnhandledException(ex);
+                TreatUnhandledException(ex, viewModel);
+            }
+
+            return View(viewModel);
+        }
+
+        public IActionResult Details(Guid id)
+        {
+            var viewModel = new HomeDetailsViewModel();
+
+            try
+            {
+                var customer = _customerApplicationService.GetCustomer(id);
+                viewModel.Customer = DataViewModelMapper.Map(customer);
+            }
+            catch (BusinessException bex)
+            {
+                TreatHandledException(bex, viewModel);
+            }
+            catch (Exception ex)
+            {
+                TreatUnhandledException(ex, viewModel);
             }
 
             return View(viewModel);
