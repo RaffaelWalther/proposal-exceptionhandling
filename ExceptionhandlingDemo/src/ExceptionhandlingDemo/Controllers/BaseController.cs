@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using ExceptionhandlingDemo.Business.Contracts.Exceptions;
 using ExceptionhandlingDemo.ViewModels;
 using Microsoft.AspNet.Mvc;
+using System;
+using System.Diagnostics;
 
 namespace ExceptionhandlingDemo.Controllers
 {
     public class BaseController : Controller
     {
-        
+        #region Treat handled Business- and unhandled Errors
+
         protected void TreatUnhandledException(Exception ex, BaseViewModel viewModel)
         {
             Debug.WriteLine(ex.Message);
@@ -21,7 +20,14 @@ namespace ExceptionhandlingDemo.Controllers
         protected void TreatHandledException(BusinessException bex, BaseViewModel viewModel)
         {
             Debug.WriteLine(bex.Message);
+
+#if DEBUG
+            viewModel.ErrorMessage = string.Join(" > ", bex.FlattenInnerException());
+#else
             viewModel.ErrorMessage = bex.Message;
+#endif
         }
+
+        #endregion
     }
 }
