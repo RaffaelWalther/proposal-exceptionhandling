@@ -1450,6 +1450,96 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "Serilog/2.0.0-beta-465": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Configuration",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Serilog": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "Serilog.Sinks.File": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {},
+          "lib/net45/Serilog.Sinks.Observable.dll": {},
+          "lib/net45/Serilog.Sinks.PeriodicBatching.dll": {},
+          "lib/net45/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {},
+          "lib/net45/Serilog.Sinks.Observable.dll": {},
+          "lib/net45/Serilog.Sinks.PeriodicBatching.dll": {},
+          "lib/net45/Serilog.Sinks.RollingFile.dll": {}
+        }
+      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -2983,6 +3073,82 @@
           "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
         }
       },
+      "Serilog/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections.Concurrent": "4.0.11-beta-23516",
+          "System.Console": "4.0.0-beta-23516",
+          "System.Diagnostics.Process": "4.1.0-beta-23516",
+          "System.Diagnostics.TraceSource": "4.0.0-beta-23516",
+          "System.Globalization": "4.0.11-beta-23516",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem": "4.0.1-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Reflection.Extensions": "4.0.1-beta-23516",
+          "System.Runtime.Extensions": "4.0.11-beta-23516",
+          "System.Text.RegularExpressions": "4.0.11-beta-23516",
+          "System.Threading": "4.0.11-beta-23516",
+          "System.Threading.Thread": "4.0.0-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Serilog": "2.0.0-beta-465"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem": "4.0.0",
+          "System.IO.FileSystem.Primitives": "4.0.0"
+        },
+        "compile": {
+          "lib/dotnet5.1/Serilog.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.Console.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.1/Serilog.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.Console.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "Serilog.Sinks.File": "2.0.0-beta-465",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem.Primitives": "4.0.1-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.dll": {},
+          "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.dll": {},
+          "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3190,6 +3356,18 @@
         },
         "runtime": {
           "lib/dotnet5.2/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Diagnostics.Process/4.1.0-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "System.IO": "4.0.0",
+          "System.Runtime": "4.0.0",
+          "System.Runtime.Handles": "4.0.0",
+          "System.Text.Encoding": "4.0.0"
+        },
+        "compile": {
+          "ref/dotnet5.5/System.Diagnostics.Process.dll": {}
         }
       },
       "System.Diagnostics.StackTrace/4.0.1-beta-23516": {
@@ -5404,6 +5582,96 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "Serilog/2.0.0-beta-465": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Configuration",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Serilog": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "Serilog.Sinks.File": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {},
+          "lib/net45/Serilog.Sinks.Observable.dll": {},
+          "lib/net45/Serilog.Sinks.PeriodicBatching.dll": {},
+          "lib/net45/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {},
+          "lib/net45/Serilog.Sinks.Observable.dll": {},
+          "lib/net45/Serilog.Sinks.PeriodicBatching.dll": {},
+          "lib/net45/Serilog.Sinks.RollingFile.dll": {}
+        }
+      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -7067,6 +7335,96 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "Serilog/2.0.0-beta-465": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Configuration",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Serilog": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "Serilog.Sinks.File": "2.0.0-beta-465"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {},
+          "lib/net45/Serilog.Sinks.Observable.dll": {},
+          "lib/net45/Serilog.Sinks.PeriodicBatching.dll": {},
+          "lib/net45/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {},
+          "lib/net45/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/net45/Serilog.Sinks.Console.dll": {},
+          "lib/net45/Serilog.Sinks.File.dll": {},
+          "lib/net45/Serilog.Sinks.Observable.dll": {},
+          "lib/net45/Serilog.Sinks.PeriodicBatching.dll": {},
+          "lib/net45/Serilog.Sinks.RollingFile.dll": {}
+        }
+      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -8660,6 +9018,36 @@
           "runtimes/win7/lib/DNXCore50/System.Diagnostics.Debug.dll": {}
         }
       },
+      "runtime.win7.System.Diagnostics.Process/4.1.0-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Primitives": "4.0.0",
+          "Microsoft.Win32.Registry": "4.0.0-beta-23516",
+          "System.Collections": "4.0.10",
+          "System.Diagnostics.Debug": "4.0.10",
+          "System.Globalization": "4.0.10",
+          "System.IO": "4.0.10",
+          "System.IO.FileSystem": "4.0.0",
+          "System.IO.FileSystem.Primitives": "4.0.0",
+          "System.Resources.ResourceManager": "4.0.0",
+          "System.Runtime": "4.0.20",
+          "System.Runtime.Extensions": "4.0.10",
+          "System.Runtime.Handles": "4.0.0",
+          "System.Runtime.InteropServices": "4.0.20",
+          "System.Text.Encoding": "4.0.10",
+          "System.Text.Encoding.Extensions": "4.0.10",
+          "System.Threading": "4.0.10",
+          "System.Threading.Tasks": "4.0.10",
+          "System.Threading.Thread": "4.0.0-beta-23516",
+          "System.Threading.ThreadPool": "4.0.10-beta-23516"
+        },
+        "compile": {
+          "ref/dotnet/_._": {}
+        },
+        "runtime": {
+          "runtimes/win7/lib/dotnet5.5/System.Diagnostics.Process.dll": {}
+        }
+      },
       "runtime.win7.System.Diagnostics.TraceSource/4.0.0-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -8844,6 +9232,82 @@
         },
         "runtime": {
           "runtimes/win7/lib/DNXCore50/System.Threading.dll": {}
+        }
+      },
+      "Serilog/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections.Concurrent": "4.0.11-beta-23516",
+          "System.Console": "4.0.0-beta-23516",
+          "System.Diagnostics.Process": "4.1.0-beta-23516",
+          "System.Diagnostics.TraceSource": "4.0.0-beta-23516",
+          "System.Globalization": "4.0.11-beta-23516",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem": "4.0.1-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Reflection.Extensions": "4.0.1-beta-23516",
+          "System.Runtime.Extensions": "4.0.11-beta-23516",
+          "System.Text.RegularExpressions": "4.0.11-beta-23516",
+          "System.Threading": "4.0.11-beta-23516",
+          "System.Threading.Thread": "4.0.0-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Serilog": "2.0.0-beta-465"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem": "4.0.0",
+          "System.IO.FileSystem.Primitives": "4.0.0"
+        },
+        "compile": {
+          "lib/dotnet5.1/Serilog.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.Console.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.1/Serilog.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.Console.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "Serilog.Sinks.File": "2.0.0-beta-465",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem.Primitives": "4.0.1-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.dll": {},
+          "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.dll": {},
+          "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9053,6 +9517,18 @@
         },
         "runtime": {
           "lib/dotnet5.2/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Diagnostics.Process/4.1.0-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "System.IO": "4.0.0",
+          "System.Runtime": "4.0.0",
+          "System.Runtime.Handles": "4.0.0",
+          "System.Text.Encoding": "4.0.0"
+        },
+        "compile": {
+          "ref/dotnet5.5/System.Diagnostics.Process.dll": {}
         }
       },
       "System.Diagnostics.StackTrace/4.0.1-beta-23516": {
@@ -11285,6 +11761,36 @@
           "runtimes/win7/lib/DNXCore50/System.Diagnostics.Debug.dll": {}
         }
       },
+      "runtime.win7.System.Diagnostics.Process/4.1.0-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Primitives": "4.0.0",
+          "Microsoft.Win32.Registry": "4.0.0-beta-23516",
+          "System.Collections": "4.0.10",
+          "System.Diagnostics.Debug": "4.0.10",
+          "System.Globalization": "4.0.10",
+          "System.IO": "4.0.10",
+          "System.IO.FileSystem": "4.0.0",
+          "System.IO.FileSystem.Primitives": "4.0.0",
+          "System.Resources.ResourceManager": "4.0.0",
+          "System.Runtime": "4.0.20",
+          "System.Runtime.Extensions": "4.0.10",
+          "System.Runtime.Handles": "4.0.0",
+          "System.Runtime.InteropServices": "4.0.20",
+          "System.Text.Encoding": "4.0.10",
+          "System.Text.Encoding.Extensions": "4.0.10",
+          "System.Threading": "4.0.10",
+          "System.Threading.Tasks": "4.0.10",
+          "System.Threading.Thread": "4.0.0-beta-23516",
+          "System.Threading.ThreadPool": "4.0.10-beta-23516"
+        },
+        "compile": {
+          "ref/dotnet/_._": {}
+        },
+        "runtime": {
+          "runtimes/win7/lib/dotnet5.5/System.Diagnostics.Process.dll": {}
+        }
+      },
       "runtime.win7.System.Diagnostics.TraceSource/4.0.0-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -11469,6 +11975,82 @@
         },
         "runtime": {
           "runtimes/win7/lib/DNXCore50/System.Threading.dll": {}
+        }
+      },
+      "Serilog/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections.Concurrent": "4.0.11-beta-23516",
+          "System.Console": "4.0.0-beta-23516",
+          "System.Diagnostics.Process": "4.1.0-beta-23516",
+          "System.Diagnostics.TraceSource": "4.0.0-beta-23516",
+          "System.Globalization": "4.0.11-beta-23516",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem": "4.0.1-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Reflection.Extensions": "4.0.1-beta-23516",
+          "System.Runtime.Extensions": "4.0.11-beta-23516",
+          "System.Text.RegularExpressions": "4.0.11-beta-23516",
+          "System.Threading": "4.0.11-beta-23516",
+          "System.Threading.Thread": "4.0.0-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+          "Serilog": "2.0.0-beta-465"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem": "4.0.0",
+          "System.IO.FileSystem.Primitives": "4.0.0"
+        },
+        "compile": {
+          "lib/dotnet5.1/Serilog.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.Console.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.1/Serilog.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.Console.dll": {},
+          "lib/dotnet5.1/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0-beta-465",
+          "Serilog.Sinks.File": "2.0.0-beta-465",
+          "System.IO": "4.0.11-beta-23516",
+          "System.IO.FileSystem.Primitives": "4.0.1-beta-23516"
+        },
+        "compile": {
+          "lib/dotnet5.4/Serilog.dll": {},
+          "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet5.4/Serilog.dll": {},
+          "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11678,6 +12260,18 @@
         },
         "runtime": {
           "lib/dotnet5.2/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Diagnostics.Process/4.1.0-beta-23516": {
+        "type": "package",
+        "dependencies": {
+          "System.IO": "4.0.0",
+          "System.Runtime": "4.0.0",
+          "System.Runtime.Handles": "4.0.0",
+          "System.Text.Encoding": "4.0.0"
+        },
+        "compile": {
+          "ref/dotnet5.5/System.Diagnostics.Process.dll": {}
         }
       },
       "System.Diagnostics.StackTrace/4.0.1-beta-23516": {
@@ -13826,6 +14420,23 @@
         "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Debug.dll"
       ]
     },
+    "runtime.win7.System.Diagnostics.Process/4.1.0-beta-23516": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "qCCXX+OG6430kLtN/wyjeLTTiJvOIKB2G+qBvhSqVLWe5ZTiEiSnweKUzdi7raXL0te0WfPE5tf8FuKcEKPnIA==",
+      "files": [
+        "ref/dotnet/_._",
+        "runtime.win7.System.Diagnostics.Process.4.1.0-beta-23516.nupkg",
+        "runtime.win7.System.Diagnostics.Process.4.1.0-beta-23516.nupkg.sha512",
+        "runtime.win7.System.Diagnostics.Process.nuspec",
+        "runtimes/win7/lib/dotnet5.5/System.Diagnostics.Process.dll",
+        "runtimes/win7/lib/net/_._",
+        "runtimes/win7/lib/netcore50/_._",
+        "runtimes/win7/lib/win8/_._",
+        "runtimes/win7/lib/wp8/_._",
+        "runtimes/win7/lib/wpa81/_._"
+      ]
+    },
     "runtime.win7.System.Diagnostics.TraceSource/4.0.0-beta-23516": {
       "type": "package",
       "serviceable": true,
@@ -13983,6 +14594,90 @@
         "runtimes/win7/lib/DNXCore50/System.Threading.dll",
         "runtimes/win7/lib/netcore50/System.Threading.dll",
         "runtimes/win8-aot/lib/netcore50/System.Threading.dll"
+      ]
+    },
+    "Serilog/2.0.0-beta-465": {
+      "type": "package",
+      "sha512": "WCWljYsF2u2gzcKAAieKisqI4GXfd1Y97jfOa+yfqfLhur0VOt/20SwEQprOBfpSdlKbDbefSg9PjaLB0HzR6A==",
+      "files": [
+        "lib/dotnet5.1/Serilog.dll",
+        "lib/dotnet5.1/Serilog.xml",
+        "lib/dotnet5.4/Serilog.dll",
+        "lib/dotnet5.4/Serilog.xml",
+        "lib/net40/Serilog.dll",
+        "lib/net40/Serilog.xml",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "Serilog.2.0.0-beta-465.nupkg",
+        "Serilog.2.0.0-beta-465.nupkg.sha512",
+        "Serilog.nuspec"
+      ]
+    },
+    "Serilog.Extensions.Logging/1.0.0-rc1-final-10092": {
+      "type": "package",
+      "sha512": "Arg5ew6/FihgrcGddyiBR7n895hRDPt+F1f6epmN8gmDmNKzMdjR5j3dbWaK1YSxmf1Mi3jz/SbF7AAijLmGzg==",
+      "files": [
+        "lib/dotnet5.4/Serilog.Extensions.Logging.dll",
+        "lib/dotnet5.4/Serilog.Extensions.Logging.xml",
+        "lib/net451/Serilog.Extensions.Logging.dll",
+        "lib/net451/Serilog.Extensions.Logging.xml",
+        "lib/netcore50/Serilog.Extensions.Logging.dll",
+        "lib/netcore50/Serilog.Extensions.Logging.xml",
+        "Serilog.Extensions.Logging.1.0.0-rc1-final-10092.nupkg",
+        "Serilog.Extensions.Logging.1.0.0-rc1-final-10092.nupkg.sha512",
+        "Serilog.Extensions.Logging.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/2.0.0-beta-465": {
+      "type": "package",
+      "sha512": "FVLlr0971K7AEiDIMEMNxEsfqIHxvOakD4PjlpNKl0IhGP+ZX5DX9pCFENta7jTe7KU4vz3MVWvo7GDmdHamaQ==",
+      "files": [
+        "lib/dotnet5.1/Serilog.dll",
+        "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.dll",
+        "lib/dotnet5.1/Serilog.Sinks.ColoredConsole.xml",
+        "lib/dotnet5.1/Serilog.Sinks.Console.dll",
+        "lib/dotnet5.1/Serilog.Sinks.Console.xml",
+        "lib/dotnet5.1/Serilog.Sinks.File.dll",
+        "lib/dotnet5.1/Serilog.Sinks.File.xml",
+        "lib/dotnet5.1/Serilog.xml",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.Sinks.ColoredConsole.dll",
+        "lib/net45/Serilog.Sinks.ColoredConsole.xml",
+        "lib/net45/Serilog.Sinks.Console.dll",
+        "lib/net45/Serilog.Sinks.Console.xml",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/net45/Serilog.xml",
+        "Serilog.Sinks.File.2.0.0-beta-465.nupkg",
+        "Serilog.Sinks.File.2.0.0-beta-465.nupkg.sha512",
+        "Serilog.Sinks.File.nuspec"
+      ]
+    },
+    "Serilog.Sinks.RollingFile/2.0.0-beta-465": {
+      "type": "package",
+      "sha512": "CLY7hvQCnCYZ9kCFrsgg9VWoMwM3MKv8M78PPbRNxl/uT/BTzH3uQNfPkQnO3SizbvWKrDquubxoWqwS/L/0Hw==",
+      "files": [
+        "lib/dotnet5.4/Serilog.dll",
+        "lib/dotnet5.4/Serilog.Sinks.RollingFile.dll",
+        "lib/dotnet5.4/Serilog.Sinks.RollingFile.xml",
+        "lib/dotnet5.4/Serilog.xml",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.Sinks.ColoredConsole.dll",
+        "lib/net45/Serilog.Sinks.ColoredConsole.xml",
+        "lib/net45/Serilog.Sinks.Console.dll",
+        "lib/net45/Serilog.Sinks.Console.xml",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/net45/Serilog.Sinks.Observable.dll",
+        "lib/net45/Serilog.Sinks.Observable.xml",
+        "lib/net45/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/net45/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/net45/Serilog.Sinks.RollingFile.dll",
+        "lib/net45/Serilog.Sinks.RollingFile.xml",
+        "lib/net45/Serilog.xml",
+        "Serilog.Sinks.RollingFile.2.0.0-beta-465.nupkg",
+        "Serilog.Sinks.RollingFile.2.0.0-beta-465.nupkg.sha512",
+        "Serilog.Sinks.RollingFile.nuspec"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -14623,6 +15318,51 @@
         "System.Diagnostics.DiagnosticSource.4.0.0-beta-23516.nupkg",
         "System.Diagnostics.DiagnosticSource.4.0.0-beta-23516.nupkg.sha512",
         "System.Diagnostics.DiagnosticSource.nuspec"
+      ]
+    },
+    "System.Diagnostics.Process/4.1.0-beta-23516": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "uXV0y5jByAnFDoQRHVpsMvqzjYeIhSSiKP0U++erIae/9DFULDlhxpzJsKVC2BU44QGyGoShUbgxBuFyMr3gPA==",
+      "files": [
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Diagnostics.Process.dll",
+        "lib/net461/System.Diagnostics.Process.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "ref/dotnet5.4/de/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/es/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/fr/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/it/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/ja/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/ko/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/ru/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/System.Diagnostics.Process.dll",
+        "ref/dotnet5.4/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/zh-hans/System.Diagnostics.Process.xml",
+        "ref/dotnet5.4/zh-hant/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/de/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/es/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/fr/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/it/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/ja/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/ko/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/ru/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/System.Diagnostics.Process.dll",
+        "ref/dotnet5.5/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/zh-hans/System.Diagnostics.Process.xml",
+        "ref/dotnet5.5/zh-hant/System.Diagnostics.Process.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Diagnostics.Process.dll",
+        "ref/net461/System.Diagnostics.Process.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "runtime.json",
+        "System.Diagnostics.Process.4.1.0-beta-23516.nupkg",
+        "System.Diagnostics.Process.4.1.0-beta-23516.nupkg.sha512",
+        "System.Diagnostics.Process.nuspec"
       ]
     },
     "System.Diagnostics.StackTrace/4.0.1-beta-23516": {
@@ -17522,7 +18262,9 @@
       "Microsoft.Extensions.Logging >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Console >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final",
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
+      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final",
+      "Serilog.Extensions.Logging >= 1.0.0-rc1-final-10092",
+      "Serilog.Sinks.RollingFile >= 2.0.0-beta-465"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []
