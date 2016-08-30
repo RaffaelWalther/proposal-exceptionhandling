@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ExceptionhandlingDemo.ViewModels.DataViewModels
 {
-    public class CustomerDataViewModel : DataViewModelBase
+    public class CustomerDataViewModel : BaseDataViewModel
     {
         public string FirstName { get; set; }
 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExceptionhandlingDemo.Business.ApplicationServices;
+using ExceptionhandlingDemo.Business.Contracts.ApplicationServices;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -32,6 +34,7 @@ namespace ExceptionhandlingDemo
             services.AddMvc();
 
             services.AddTransient(typeof(ICustomerRepository), typeof(MockedCustomerRepository));
+            services.AddTransient(typeof(ICustomerApplicationService), typeof(CustomerApplicationService));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

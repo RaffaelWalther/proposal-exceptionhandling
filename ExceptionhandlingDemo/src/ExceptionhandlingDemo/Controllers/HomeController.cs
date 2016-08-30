@@ -1,16 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
+using ExceptionhandlingDemo.Business.Contracts.ApplicationServices;
+using ExceptionhandlingDemo.Business.Contracts.Exceptions;
+using ExceptionhandlingDemo.ViewModels;
 using Microsoft.AspNet.Mvc;
+using System;
+using System.Linq;
 
 namespace ExceptionhandlingDemo.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
+        private readonly ICustomerApplicationService _customerApplicationService;
+
+        public HomeController(ICustomerApplicationService customerApplicationService)
+        {
+            _customerApplicationService = customerApplicationService;
+        }
+
         public IActionResult Index()
         {
-            return View();
+            var viewModel = new HomeIndexViewModel();
+
+            try
+            {
+                var customers = _customerApplicationService.GetAllCustomers();
+                viewModel.Customers = customers.Select(DataViewModelMapper.Map).ToList();
+            }
+            catch (BusinessException bex)
+            {
+                TreatHandledException(bex);
+            }
+            catch (Exception ex)
+            {
+                TreatUnhandledException(ex);
+            }
+
+            return View(viewModel);
         }
 
         public IActionResult About()
