@@ -11,6 +11,8 @@ namespace ExceptionhandlingDemo.ViewModels
         public HomeIndexViewModel()
         {
             Customers = new List<CustomerDataViewModel>();
+            PageTitle = "Customers";
+            PageSubTitle = "All your Customers";
         }
     }
 }

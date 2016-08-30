@@ -36,9 +36,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-controller="Home" asp-action="Index"><span class="glyphicon glyphicon-list"></span> Index (default Handling)</a></li>
+                    <li><a asp-controller="Home" asp-action="IndexFunc"><span class="glyphicon glyphicon-list"></span> Index (Func Handling)</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +46,7 @@
 
         <h1>@Model.PageTitle</h1><br />
         <h1 class="small">@Model.PageSubTitle</h1>
-        <hr/>
+        <hr />
 
         @if (Model.HasError)
         {
@@ -55,7 +54,6 @@
                 @Model.ErrorMessage
             </div>
         }
-
         <div>
             @RenderBody()
         </div>

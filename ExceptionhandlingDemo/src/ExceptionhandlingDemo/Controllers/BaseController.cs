@@ -9,7 +9,7 @@ namespace ExceptionhandlingDemo.Controllers
 {
     public class BaseController : Controller
     {
-        #region Treat handled Business- and unhandled Errors
+        #region Option A: Treat handled Business- and unhandled Errors
 
         protected void TreatUnhandledException(Exception ex, BaseViewModel viewModel)
         {
@@ -26,6 +26,56 @@ namespace ExceptionhandlingDemo.Controllers
 #else
             viewModel.ErrorMessage = bex.Message;
 #endif
+        }
+
+        #endregion
+
+        #region Option B: Simplified Action with Func-Delegates
+
+        protected TResult GetViewModel<TResult>(Func<TResult> action) where TResult : BaseViewModel
+        {
+            try
+            {
+                return (TResult)action.Invoke();
+            }
+            catch (BusinessException bex)
+            {
+                var viewModel = new BaseViewModel();
+                TreatHandledException(bex, viewModel);
+                return (TResult)viewModel;
+            }
+            catch (Exception ex)
+            {
+                var viewModel = new BaseViewModel();
+                TreatUnhandledException(ex, viewModel);
+                return (TResult)viewModel;
+            }
+        }
+
+        protected TResult GetViewModel<T, TResult>(Func<T, TResult> action, T arg) where TResult : BaseViewModel
+        {
+            try
+            {
+              return (TResult)action.Invoke(arg);
+            }
+            catch (BusinessException bex)
+            {
+                var viewModel = new BaseViewModel();
+                TreatHandledException(bex, viewModel);
+                return (TResult)viewModel;
+            }
+            catch (Exception ex)
+            {
+                var viewModel = new BaseViewModel();
+                TreatUnhandledException(ex, viewModel);
+                return (TResult)viewModel;
+            }
+        }
+
+
+        private T CreateViewModel<T>()
+        {
+            return (T)Activator.CreateInstance(typeof(T));
         }
 
         #endregion

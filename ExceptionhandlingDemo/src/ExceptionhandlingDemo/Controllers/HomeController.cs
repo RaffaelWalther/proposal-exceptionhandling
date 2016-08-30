@@ -23,6 +23,8 @@ namespace ExceptionhandlingDemo.Controllers
 
             try
             {
+                throw new Exception();
+
                 var customers = _customerApplicationService.GetAllCustomers();
                 viewModel.Customers = customers.Select(DataViewModelMapper.Map).ToList();
             }
@@ -59,23 +61,42 @@ namespace ExceptionhandlingDemo.Controllers
             return View(viewModel);
         }
 
-        public IActionResult About()
+        public IActionResult IndexFunc()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            return View("Index", GetViewModel<HomeIndexViewModel>(GetIndexViewModel));
         }
 
-        public IActionResult Contact()
+        public IActionResult DetailsFunc(Guid id)
         {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
+            return View("Details", GetViewModel<Guid, HomeDetailsViewModel>(GetDetailsViewModel, id));
         }
 
-        public IActionResult Error()
+        #region Helper
+
+        private HomeIndexViewModel GetIndexViewModel()
         {
-            return View();
+            // todo: uncomment to simulate unhandled-exception handling
+            // throw new Exception();
+
+            return new HomeIndexViewModel
+            {
+                Customers = _customerApplicationService.GetAllCustomers()
+                    .Select(DataViewModelMapper.Map).ToList()
+            };
         }
+
+        private HomeDetailsViewModel GetDetailsViewModel(Guid objectId)
+        {
+            // todo: uncomment to simulate unhandled-exception handling
+            // throw new Exception();
+
+            return new HomeDetailsViewModel
+            {
+                Customer = DataViewModelMapper.Map(_customerApplicationService.GetCustomer(objectId))
+            };
+        }
+
+        #endregion
+
     }
 }

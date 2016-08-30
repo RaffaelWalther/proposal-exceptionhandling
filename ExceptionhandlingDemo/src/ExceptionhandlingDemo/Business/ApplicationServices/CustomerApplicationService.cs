@@ -34,6 +34,8 @@ namespace ExceptionhandlingDemo.Business.ApplicationServices
         {
             try
             {
+                // todo: uncomment to simulate unhandled-exception handling
+                throw new BusinessException($"Could not load Customer '{objectId}'", new NullReferenceException());
                 return _customerRepository.Get(objectId);
             }
             catch (Exception ex)
