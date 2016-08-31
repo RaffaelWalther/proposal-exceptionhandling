@@ -7,3 +7,6 @@ Classic Handling, Action consumes Appl.Services and provides try/catch for Busin
 ## Option 2: 
 Generic Handling, Action consumes generic Method in BaseController and provides a Func-Delegate for getting Data and ViewModel.
 
+## Option 3:
+Similar to Option 2 but instead of a Method in BaseController a Filter (ExceptionWithLoggingFilterAttribute) is used.
+(Use http:localhost:5000/Home/Index2 to test)
