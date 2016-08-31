@@ -1,0 +1,1450 @@
+﻿2016-08-31 13:43:41.921 +02:00 [Debug] Hosting starting
+2016-08-31 13:43:44.185 +02:00 [Debug] Hosting started
+2016-08-31 14:01:30.021 +02:00 [Debug] Hosting starting
+2016-08-31 14:01:32.205 +02:00 [Debug] Hosting started
+2016-08-31 14:01:45.121 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2016-08-31 14:01:49.406 +02:00 [Debug] The request path "/" does not match a supported file type
+2016-08-31 14:01:51.691 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:01:51.730 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index"
+2016-08-31 14:01:53.910 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index" with arguments (null) - ModelState is Valid'
+2016-08-31 14:01:53.976 +02:00 [Fatal] Unhandled Error occured: Exception of type 'System.Exception' was thrown.
+2016-08-31 14:01:53.981 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Index", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-31 14:02:19.662 +02:00 [Debug] The view '"Index"' was found.
+2016-08-31 14:02:19.671 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2016-08-31 14:02:21.869 +02:00 [Information] User profile is available. Using '"C:\Users\rwalther\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-31 14:02:24.429 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index" in 3.2688ms
+2016-08-31 14:02:24.435 +02:00 [Information] Request finished in 3.9297ms 200 text/html; charset=utf-8
+2016-08-31 14:02:24.444 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css  
+2016-08-31 14:02:24.459 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+2016-08-31 14:02:24.478 +02:00 [Information] Request finished in 0.0031ms 200 text/css
+2016-08-31 14:02:24.481 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2016-08-31 14:02:24.485 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\css\site.css"'
+2016-08-31 14:02:24.488 +02:00 [Information] Request finished in 0ms 200 text/css
+2016-08-31 14:02:24.491 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js  
+2016-08-31 14:02:24.494 +02:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\lib\jquery\dist\jquery.js"'
+2016-08-31 14:02:24.501 +02:00 [Information] Request finished in 0.0016ms 200 application/javascript
+2016-08-31 14:02:24.505 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js  
+2016-08-31 14:02:24.508 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+2016-08-31 14:02:24.512 +02:00 [Information] Request finished in 0ms 200 application/javascript
+2016-08-31 14:02:24.515 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=Ynfdc1vuMNOWZfqTj4N3SPcebazoGXiIPgtfE-b2TO4  
+2016-08-31 14:02:24.519 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\js\site.js"'
+2016-08-31 14:02:24.522 +02:00 [Information] Request finished in 0ms 200 application/javascript
+2016-08-31 14:02:24.524 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2016-08-31 14:02:24.527 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"'
+2016-08-31 14:02:24.530 +02:00 [Information] Request finished in 0.0015ms 200 application/font-woff2
+2016-08-31 14:02:24.790 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2016-08-31 14:02:24.795 +02:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\wwwroot\favicon.ico"'
+2016-08-31 14:02:24.798 +02:00 [Information] Request finished in 0.0016ms 200 image/x-icon
+2016-08-31 14:02:27.057 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Index2  
+2016-08-31 14:02:27.057 +02:00 [Debug] The request path "/Index2" does not match a supported file type
+2016-08-31 14:02:27.059 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:02:27.060 +02:00 [Debug] No actions matched the current request
+2016-08-31 14:02:27.061 +02:00 [Debug] Request did not match any routes.
+2016-08-31 14:02:27.064 +02:00 [Information] Request finished in 0.0016ms 404 
+2016-08-31 14:02:41.104 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:02:41.105 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:02:41.106 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:02:41.107 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:02:41.111 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:02:41.361 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ExceptionhandlingDemo.Controllers.HomeController.Index2() in C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\Controllers\HomeController.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionExecutor.ExecuteAsync(MethodInfo actionMethodInfo, Object instance, Object[] orderedActionArguments)
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionInvoker.<InvokeActionAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeActionFilterAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:02:41.407 +02:00 [Information] Request finished in 0.0297ms 500 text/html; charset=utf-8
+2016-08-31 14:03:15.051 +02:00 [Debug] Hosting starting
+2016-08-31 14:03:15.185 +02:00 [Debug] Hosting started
+2016-08-31 14:03:19.430 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:03:19.473 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:03:19.659 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:03:19.700 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:03:19.812 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:03:20.091 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ExceptionhandlingDemo.Controllers.HomeController.Index2() in C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\Controllers\HomeController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionExecutor.ExecuteAsync(MethodInfo actionMethodInfo, Object instance, Object[] orderedActionArguments)
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionInvoker.<InvokeActionAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeActionFilterAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:03:20.167 +02:00 [Information] Request finished in 0.0735ms 500 text/html; charset=utf-8
+2016-08-31 14:03:30.074 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:03:30.075 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:03:30.075 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:03:30.076 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:03:30.103 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:03:43.807 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ExceptionhandlingDemo.Controllers.HomeController.Index2() in C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\Controllers\HomeController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionExecutor.ExecuteAsync(MethodInfo actionMethodInfo, Object instance, Object[] orderedActionArguments)
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionInvoker.<InvokeActionAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeActionFilterAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:03:43.812 +02:00 [Information] Request finished in 1.375ms 500 text/html; charset=utf-8
+2016-08-31 14:03:48.978 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:03:48.979 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:03:48.980 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:03:48.981 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:04:05.527 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:04:08.296 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ExceptionhandlingDemo.Controllers.HomeController.Index2() in C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\Controllers\HomeController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionExecutor.ExecuteAsync(MethodInfo actionMethodInfo, Object instance, Object[] orderedActionArguments)
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionInvoker.<InvokeActionAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeActionFilterAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:04:08.324 +02:00 [Information] Request finished in 1.9375ms 500 text/html; charset=utf-8
+2016-08-31 14:04:34.500 +02:00 [Debug] Hosting starting
+2016-08-31 14:04:34.634 +02:00 [Debug] Hosting started
+2016-08-31 14:04:36.744 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:04:36.794 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:04:36.991 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:04:37.031 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:04:39.202 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:08:54.045 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ExceptionhandlingDemo.Controllers.HomeController.Index2() in C:\Users\rwalther\Documents\visual studio 2015\Projects\proposal-exceptionhandling\ExceptionhandlingDemo\src\ExceptionhandlingDemo\Controllers\HomeController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionExecutor.ExecuteAsync(MethodInfo actionMethodInfo, Object instance, Object[] orderedActionArguments)
+   at Microsoft.AspNet.Mvc.Controllers.ControllerActionInvoker.<InvokeActionAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeActionFilterAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:08:54.142 +02:00 [Information] Request finished in 25.761ms 500 text/html; charset=utf-8
+2016-08-31 14:09:29.947 +02:00 [Debug] Hosting starting
+2016-08-31 14:09:30.100 +02:00 [Debug] Hosting started
+2016-08-31 14:09:49.735 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:09:49.773 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:09:49.945 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:09:49.983 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:09:50.087 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:09:57.824 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNet.Mvc.RedirectToRouteResult.ExecuteResult(ActionContext context)
+   at Microsoft.AspNet.Mvc.ActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:09:57.892 +02:00 [Information] Request finished in 0.8156ms 500 text/html; charset=utf-8
+2016-08-31 14:15:24.259 +02:00 [Debug] Hosting starting
+2016-08-31 14:15:24.387 +02:00 [Debug] Hosting started
+2016-08-31 14:15:29.546 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:15:29.588 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:15:29.768 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:15:29.806 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:15:29.945 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:15:32.618 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNet.Mvc.RedirectToRouteResult.ExecuteResult(ActionContext context)
+   at Microsoft.AspNet.Mvc.ActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:15:32.731 +02:00 [Information] Request finished in 0.3188ms 500 text/html; charset=utf-8
+2016-08-31 14:15:50.184 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:15:50.185 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:15:50.186 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:15:50.188 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:15:50.195 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:16:01.363 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNet.Mvc.RedirectToRouteResult.ExecuteResult(ActionContext context)
+   at Microsoft.AspNet.Mvc.ActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:16:01.401 +02:00 [Information] Request finished in 1.1203ms 500 text/html; charset=utf-8
+2016-08-31 14:16:26.288 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:16:26.289 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:16:26.289 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:16:26.290 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:16:26.293 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:16:28.408 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNet.Mvc.RedirectToRouteResult.ExecuteResult(ActionContext context)
+   at Microsoft.AspNet.Mvc.ActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:16:28.410 +02:00 [Information] Request finished in 0.2109ms 500 text/html; charset=utf-8
+2016-08-31 14:35:35.423 +02:00 [Debug] Hosting starting
+2016-08-31 14:35:35.548 +02:00 [Debug] Hosting started
+2016-08-31 14:36:31.970 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:36:32.008 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:36:32.175 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:36:32.214 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:36:32.315 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:36:40.937 +02:00 [Information] Executing RedirectToRouteResult, redirecting to "/Home/Error" from route null.
+2016-08-31 14:36:40.986 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index2" in 0.8765ms
+2016-08-31 14:36:41.070 +02:00 [Information] Request finished in 0.9093ms 302 
+2016-08-31 14:36:43.939 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Error  
+2016-08-31 14:36:43.940 +02:00 [Debug] The request path "/Home/Error" does not match a supported file type
+2016-08-31 14:36:43.941 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:36:43.945 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Error"
+2016-08-31 14:36:43.948 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Error" with arguments (null) - ModelState is Valid'
+2016-08-31 14:36:48.081 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Error", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-31 14:36:52.840 +02:00 [Debug] The view '"Error"' was found.
+2016-08-31 14:36:52.854 +02:00 [Information] Executing ViewResult, running view at path "/Views/Shared/Error.cshtml".
+2016-08-31 14:36:54.965 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:36:54.966 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:36:54.968 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:36:54.970 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:36:54.974 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:36:58.506 +02:00 [Information] Executing RedirectToRouteResult, redirecting to "/Home/Error" from route null.
+2016-08-31 14:36:58.512 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index2" in 0.3546ms
+2016-08-31 14:36:58.518 +02:00 [Information] Request finished in 0.3546ms 302 
+2016-08-31 14:36:58.528 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Error  
+2016-08-31 14:36:58.529 +02:00 [Debug] The request path "/Home/Error" does not match a supported file type
+2016-08-31 14:36:58.530 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:36:58.544 +02:00 [Information] User profile is available. Using '"C:\Users\rwalther\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-31 14:36:58.562 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Error"
+2016-08-31 14:36:58.567 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Error" with arguments (null) - ModelState is Valid'
+2016-08-31 14:36:58.571 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Error", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-31 14:36:58.573 +02:00 [Debug] The view '"Error"' was found.
+2016-08-31 14:36:58.575 +02:00 [Information] Executing ViewResult, running view at path "/Views/Shared/Error.cshtml".
+2016-08-31 14:37:03.826 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Asp.ASPV__Views_Shared__Layout_cshtml.<ExecuteAsync>d__26.MoveNext() in /Views/Shared/_Layout.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderPageAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderLayoutAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewResult.<ExecuteResultAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultFilterAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAllResultFiltersAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:37:03.843 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Asp.ASPV__Views_Shared__Layout_cshtml.<ExecuteAsync>d__26.MoveNext() in /Views/Shared/_Layout.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderPageAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderLayoutAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewResult.<ExecuteResultAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultFilterAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAllResultFiltersAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:37:03.947 +02:00 [Error] An exception was thrown attempting to display the error page.
+Microsoft.AspNet.Server.Kestrel.Networking.UvException: Error -4081 ECANCELED operation canceled
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Server.Kestrel.Http.SocketOutput.Microsoft.AspNet.Server.Kestrel.Http.ISocketOutput.Write(ArraySegment`1 buffer, Boolean immediate)
+   at Microsoft.AspNet.Server.Kestrel.Http.Frame.WriteChunked(ArraySegment`1 data)
+   at Microsoft.AspNet.Server.Kestrel.Http.Frame.Write(ArraySegment`1 data)
+   at Microsoft.AspNet.Server.Kestrel.Http.FrameResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNet.Diagnostics.Views.BaseView.WriteLiteralTo(TextWriter writer, String value)
+   at Microsoft.AspNet.Diagnostics.Views.BaseView.WriteTo(TextWriter writer, String value)
+   at Microsoft.AspNet.Diagnostics.Views.BaseView.Write(String value)
+   at Microsoft.AspNet.Diagnostics.Views.ErrorPage.<ExecuteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.Views.BaseView.<ExecuteAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:37:03.984 +02:00 [Information] Request finished in 0.5453ms 500 text/html; charset=utf-8
+2016-08-31 14:37:03.986 +02:00 [Information] Request finished in 2.0047ms 500
+2016-08-31 14:37:04.049 +02:00 [Error] An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Asp.ASPV__Views_Shared__Layout_cshtml.<ExecuteAsync>d__26.MoveNext() in /Views/Shared/_Layout.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderPageAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderLayoutAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewResult.<ExecuteResultAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultFilterAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAllResultFiltersAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Hosting.Internal.HostingEngine.<>c__DisplayClass32_0.<<Start>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at Microsoft.AspNet.Server.Kestrel.Http.Frame.<RequestProcessingAsync>d__79.MoveNext()
+2016-08-31 14:41:19.231 +02:00 [Debug] Hosting starting
+2016-08-31 14:41:19.366 +02:00 [Debug] Hosting started
+2016-08-31 14:41:25.566 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:41:25.603 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:41:25.777 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:41:25.816 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:41:25.920 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 14:41:29.930 +02:00 [Information] Executing RedirectToRouteResult, redirecting to "/Home/Error" from route null.
+2016-08-31 14:41:29.937 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index2" in 0.4109ms
+2016-08-31 14:41:29.944 +02:00 [Information] Request finished in 0.4375ms 302 
+2016-08-31 14:41:29.966 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Error  
+2016-08-31 14:41:29.967 +02:00 [Debug] The request path "/Home/Error" does not match a supported file type
+2016-08-31 14:41:29.968 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:41:29.969 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Error"
+2016-08-31 14:41:29.977 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Error" with arguments (null) - ModelState is Valid'
+2016-08-31 14:41:29.985 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Error", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-31 14:41:34.786 +02:00 [Debug] The view '"Error"' was found.
+2016-08-31 14:41:34.797 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Error.cshtml".
+2016-08-31 14:41:36.978 +02:00 [Information] User profile is available. Using '"C:\Users\rwalther\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-31 14:41:39.794 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Asp.ASPV__Views_Shared__Layout_cshtml.<ExecuteAsync>d__26.MoveNext() in /Views/Shared/_Layout.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderPageAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderLayoutAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewResult.<ExecuteResultAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultFilterAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAllResultFiltersAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:41:39.847 +02:00 [Information] Request finished in 0.9875ms 500 text/html; charset=utf-8
+2016-08-31 14:45:39.160 +02:00 [Debug] Hosting starting
+2016-08-31 14:45:39.291 +02:00 [Debug] Hosting started
+2016-08-31 14:45:39.462 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Error  
+2016-08-31 14:45:39.509 +02:00 [Debug] The request path "/Home/Error" does not match a supported file type
+2016-08-31 14:45:39.708 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:45:39.752 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Error"
+2016-08-31 14:45:39.870 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Error" with arguments (null) - ModelState is Valid'
+2016-08-31 14:45:39.876 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Error", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-31 14:45:44.708 +02:00 [Debug] The view '"Error"' was found.
+2016-08-31 14:45:44.716 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Error.cshtml".
+2016-08-31 14:45:46.869 +02:00 [Information] User profile is available. Using '"C:\Users\rwalther\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-31 14:45:50.045 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Asp.ASPV__Views_Shared__Layout_cshtml.<ExecuteAsync>d__26.MoveNext() in /Views/Shared/_Layout.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderPageAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderLayoutAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewResult.<ExecuteResultAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultFilterAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAllResultFiltersAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 14:45:50.125 +02:00 [Information] Request finished in 1.0656ms 500 text/html; charset=utf-8
+2016-08-31 14:59:19.073 +02:00 [Debug] Hosting starting
+2016-08-31 14:59:19.206 +02:00 [Debug] Hosting started
+2016-08-31 14:59:52.521 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 14:59:52.570 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 14:59:52.757 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 14:59:52.799 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 14:59:52.917 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 15:09:04.881 +02:00 [Information] Executing RedirectToRouteResult, redirecting to "/Home/Error" from route null.
+2016-08-31 15:09:04.888 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index2" in 55.2078ms
+2016-08-31 15:09:04.894 +02:00 [Information] Request finished in 55.2359ms 302 
+2016-08-31 15:09:04.930 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Error  
+2016-08-31 15:09:04.931 +02:00 [Debug] The request path "/Home/Error" does not match a supported file type
+2016-08-31 15:09:04.932 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 15:09:04.933 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Error"
+2016-08-31 15:09:04.939 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Error" with arguments (null) - ModelState is Valid'
+2016-08-31 15:09:04.945 +02:00 [Debug] Executed action method "ExceptionhandlingDemo.Controllers.HomeController.Error", returned result "Microsoft.AspNet.Mvc.ViewResult".'
+2016-08-31 15:09:15.928 +02:00 [Debug] The view '"Error"' was found.
+2016-08-31 15:09:15.932 +02:00 [Information] Executing ViewResult, running view at path "/Views/Shared/Error.cshtml".
+2016-08-31 15:09:22.527 +02:00 [Information] User profile is available. Using '"C:\Users\rwalther\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-31 15:09:29.771 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Asp.ASPV__Views_Shared__Layout_cshtml.<ExecuteAsync>d__26.MoveNext() in /Views/Shared/_Layout.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderPageAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderLayoutAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Razor.RazorView.<RenderAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.ViewResult.<ExecuteResultAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultAsync>d__56.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResultFilterAsync>d__55.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAllResultFiltersAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeResourceFilterAsync>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNet.Mvc.Controllers.FilterActionInvoker.<InvokeAsync>d__44.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Mvc.Infrastructure.MvcRouteHandler.<RouteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.Template.TemplateRoute.<RouteAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.IISPlatformHandler.IISPlatformHandlerMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2016-08-31 15:09:29.825 +02:00 [Information] Request finished in 2.4891ms 500 text/html; charset=utf-8
+2016-08-31 15:23:30.987 +02:00 [Debug] Hosting starting
+2016-08-31 15:23:31.120 +02:00 [Debug] Hosting started
+2016-08-31 15:23:35.148 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/Home/Index2  
+2016-08-31 15:23:35.194 +02:00 [Debug] The request path "/Home/Index2" does not match a supported file type
+2016-08-31 15:23:35.381 +02:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2016-08-31 15:23:35.420 +02:00 [Debug] Executing action "ExceptionhandlingDemo.Controllers.HomeController.Index2"
+2016-08-31 15:23:35.542 +02:00 [Information] Executing action method "ExceptionhandlingDemo.Controllers.HomeController.Index2" with arguments (null) - ModelState is Valid'
+2016-08-31 15:23:56.133 +02:00 [Debug] The view '"Error"' was found.
+2016-08-31 15:23:56.148 +02:00 [Information] Executing ViewResult, running view at path "/Views/Shared/Error.cshtml".
+2016-08-31 15:24:02.997 +02:00 [Information] User profile is available. Using '"C:\Users\rwalther\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2016-08-31 15:24:10.211 +02:00 [Information] Executed action "ExceptionhandlingDemo.Controllers.HomeController.Index2" in 3.4781ms
+2016-08-31 15:24:10.217 +02:00 [Information] Request finished in 3.5063ms 200 text/html; charset=utf-8
+2016-08-31 15:24:10.231 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css  
+2016-08-31 15:24:10.251 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2016-08-31 15:24:10.255 +02:00 [Debug] Handled. Status code: 304 File: "/lib/bootstrap/dist/css/bootstrap.css"
+2016-08-31 15:24:10.257 +02:00 [Information] Request finished in 0.0031ms 304 text/css
+2016-08-31 15:24:10.260 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2016-08-31 15:24:10.262 +02:00 [Information] The file "/css/site.css" was not modified
+2016-08-31 15:24:10.263 +02:00 [Debug] Handled. Status code: 304 File: "/css/site.css"
+2016-08-31 15:24:10.265 +02:00 [Information] Request finished in 0ms 304 text/css
+2016-08-31 15:24:10.269 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js  
+2016-08-31 15:24:10.272 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2016-08-31 15:24:10.273 +02:00 [Debug] Handled. Status code: 304 File: "/lib/jquery/dist/jquery.js"
+2016-08-31 15:24:10.275 +02:00 [Information] Request finished in 0ms 304 application/javascript
+2016-08-31 15:24:10.281 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js  
+2016-08-31 15:24:10.283 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2016-08-31 15:24:10.284 +02:00 [Debug] Handled. Status code: 304 File: "/lib/bootstrap/dist/js/bootstrap.js"
+2016-08-31 15:24:10.287 +02:00 [Information] Request finished in 0.0016ms 304 application/javascript
+2016-08-31 15:24:10.292 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=Ynfdc1vuMNOWZfqTj4N3SPcebazoGXiIPgtfE-b2TO4  
+2016-08-31 15:24:10.296 +02:00 [Information] The file "/js/site.js" was not modified
+2016-08-31 15:24:10.297 +02:00 [Debug] Handled. Status code: 304 File: "/js/site.js"
+2016-08-31 15:24:10.299 +02:00 [Information] Request finished in 0ms 304 application/javascript
+2016-08-31 15:24:10.305 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2016-08-31 15:24:10.307 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2016-08-31 15:24:10.309 +02:00 [Debug] Handled. Status code: 304 File: "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
+2016-08-31 15:24:10.311 +02:00 [Information] Request finished in 0ms 304 application/font-woff2

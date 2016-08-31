@@ -19,7 +19,7 @@ namespace ExceptionhandlingDemo.Controllers
         {
             _customerApplicationService = customerApplicationService;
         }
-
+        
         public IActionResult Index()
         {
             var viewModel = new HomeIndexViewModel();
@@ -41,6 +41,18 @@ namespace ExceptionhandlingDemo.Controllers
             }
 
             return View(viewModel);
+        }
+
+        [ExceptionWithLoggingFilter]
+        public IActionResult Index2()
+        {
+            throw new Exception();
+            return View(new HomeIndexViewModel());
+        }
+
+        public IActionResult Error()
+        {
+            return View();
         }
 
         public IActionResult Details(Guid id)
